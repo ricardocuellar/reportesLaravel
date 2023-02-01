@@ -21,9 +21,6 @@ return new class extends Migration
             $table->float('iva');
             $table->float('total');
             $table->foreignId('user_id')->constrained();
-
-
-
             $table->timestamps();
         });
     }
